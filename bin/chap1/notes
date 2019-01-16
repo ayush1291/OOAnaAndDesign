@@ -1,0 +1,5 @@
+1. In UML diagram, we dont include constructor
+2. Great software does what customer wants it to do, even if they think to use the software in different
+	ways, it dowsnt break- like here case sensitive is not there
+3. There should not be a bunch of duplicate code, and each code should control its own behaviour
+4. Great software : - do what customers expect, -easy to maintain,reuse and extend - apply basic oo principles 
