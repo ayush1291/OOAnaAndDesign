@@ -1,0 +1,29 @@
+1. Analysis helps you ensure your system works in a real-world context
+2. Main idea is to analyse how ur code will behave in realwprld before releasing
+3. so, identify teh problem and plan a soln
+
+4. Write use cases (way of telling steps to be performed to achieve goal) such that its clear, precise
+
+Use case
+* precise
+* 1 UC should deal with 1 goal
+* the way, UC is written determines your focus object
+* should be in a language that's easily understood
+
+
+Class diagram
+1. Pay attention to nouns in UC, Nouns ==> Classes
+2. verbs ==> methods
+3. Above technique is k/a Textual analysis
+4. Think about how the classes you do have support the behaviour your use case describes
+5. Class : block with two sections (attributes and methods)
+6. instead of listing object as attributes in one section, u can show its association with class with an arrow, with its multiplicity
+7. greta for modelling classes, but won't provode info abt internal working
+
+
+Better to draw UMl / write UCs in multiple iteration than changing code again and again
+
+
+OOP concept
+1. Delegation shields your objects from implementation changes to other objects 
+ 
