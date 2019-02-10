@@ -2,7 +2,7 @@ package chap4.step1;
 
 public class Problem {
 
-	//The problem was that Bark Recognizer sent request to open the door for all bhau bhaus
+	//The problem was that Bark Recognizer sent request to open the door for all bhau bhaus and meow
 	// soln : reconizer should evaluate the bark
 	// Analysis helps us ensure that the system works in real world context
 	

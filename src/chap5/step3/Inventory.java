@@ -1,9 +1,16 @@
-package chap5.step1;
+package chap5.step3;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+
+import chap5.step1.Guitar;
+import chap5.step1.GuitarSpec;
+import chap5.step1.Instrument;
+import chap5.step1.InstrumentSpec;
+import chap5.step1.Mandolin;
+import chap5.step1.MandolinSpec;
 
 //Now, the encapsulated specs are only used for searching
 
@@ -14,6 +21,9 @@ public class Inventory {
 	public Inventory() {
 		instruments = new LinkedList<>();
 	}
+	
+	
+	//still an  issue
 
 	public void addInstrument(int serialNumber, double price, InstrumentSpec instrumentSpec) {
 		Instrument instrument = null;
@@ -25,30 +35,16 @@ public class Inventory {
 		instruments.add(instrument);
 	}
 
-	public List<Guitar> search(GuitarSpec searchGuitar) {
+	// will return all instruments
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public List search(InstrumentSpec searchInstrumentSpec) {
 		// Ignore price and name as unique
-		List<Guitar> list = new ArrayList<>();
+		List list = new ArrayList<>();
 		for (Iterator itr = instruments.iterator(); itr.hasNext();) {
 
 			Instrument i = (Instrument) itr.next();
-			if (i instanceof Guitar) {
-				Guitar guitar = (Guitar) i;
-				if (guitar.getInstrumentSpec().matches(searchGuitar))
-					list.add(guitar);
-			}
-		}
-		return list;
-	}
-
-	public List<Mandolin> search(MandolinSpec searchMandolin) {
-		// Ignore price and name as unique
-		List<Mandolin> list = new ArrayList<>();
-		for (Iterator itr = instruments.iterator(); itr.hasNext();) {
-			Instrument i = (Instrument) itr.next();
-			if (i instanceof Mandolin) {
-				Mandolin mandolin = (Mandolin) i;
-				if (mandolin.getInstrumentSpec().matches(searchMandolin))
-					list.add(mandolin);
+			if (i.getInstrumentSpec().matches(searchInstrumentSpec)) {
+				list.add(i);
 			}
 		}
 		return list;

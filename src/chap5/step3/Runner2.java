@@ -1,4 +1,10 @@
-package chap5.step1;
+package chap5.step3;
+
+import chap5.step1.GuitarSpec;
+import chap5.step1.MandolinSpec;
+import chap5.step1.Model;
+import chap5.step1.Type;
+import chap5.step1.Wood;
 
 //Now, we dont have to worry about case sensitive search 
 // Here, we first fulfil customer needs, they get for what they search, and also they gt the list of results..generally do this

@@ -10,7 +10,7 @@ public class SoundRecognizerVersion2 {
 
 	public void recognize(Bark bark) {
 		System.out.println("Recognizing " + bark.getSound());
-		if (dogDoor.getAllowedBark().equals(bark)) {
+		if (dogDoor.getAllowedBark().checkBark(bark)) {
 			dogDoor.openTheDoor();
 		} else {
 			System.out.println("Incorrect sound....");
