@@ -1,0 +1,5 @@
+1. Encapuslate what varies
+2. Coding to interface rather than implemantation makes code easier to extend
+3. The best way to get requirements is to understand what a system is supposed to do
+4. Analysis elps in understanding, ow will te system behave in real world
+5.Great software => easy to change and extend, does what customer wants

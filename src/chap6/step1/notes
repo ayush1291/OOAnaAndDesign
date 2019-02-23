@@ -1,0 +1,49 @@
+1. Solve big problems like you solve small problems > divide n conquer types
+1.1 Know what customer wants
+1.2 Apply basic OO principles to add flexibility
+1.3 Strive for a manintainable reusable design
+
+2. How will you understand what customer wants? >> talk to them / gater requirements / talk to ppl who will use the software
+3. Understand what system is like, and what it is not like
+4. Figure out features / requirements i.e. get feature from customer, figure out requirements and build that feature
+(eg. feature : support diff terrains
+     requirement : a tile is associated with each terrain type
+     			   game designers create custom terrain types
+     			   diff terrains means diff moving logic
+5. feature vs requirement : either used interchangably or alag alg
+feature : a big thing
+requirement : lots of requirement combine to satisfy the feature  
+
+6. ** always defer details as long as you can, one needs a "bog picture" view...what the system is supposed to do
+7. No details => no class diagrams / or need of writing use cases
+8. big picture required => draw use cases diagrams   	
+refer img1.png
+9. Simple but gives info what system does. You will never forget main focus (eg. hhere : deploy game)
+10. Use case diagram are blueprint of the system
+11. Make sure that everything listed in the use case, covers all your features (given by customer)
+
+
+Use case
+Actor : (who interacts with theh system : external entity) : NOT a part of the system, bt acts on the system
+Box : boundary
+circle : use case
+
+
+Domain Analysis
+Chheck your design and speak language that customer understands
+The process of identifying, collecting, organizing, and representing relevant information of a domain, based on study of existing systems and thehir development histories, knowledge captured from experts,
+nderlying thheory and emerging technology within a domain
+
+
+Refer images
+2 : Fit feature list magnets to use case diagram
+3 : sthh missing
+4 : add it
+5 : redo step 2
+6 : do it correctly
+7 : whhole picture
+8 : DnC
+9 : DnC
+10: Design pattern
+11: Overview
+

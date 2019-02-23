@@ -17,7 +17,7 @@ public class MainProblem {
 	// All classes Guitar / MAndolin have same behaviour, only properties are different
 	// if we included methods like play / strum, then behaviou chnages, so making diff classes makes sense. Here it doesn't
 	
-	// so to keep common properties, we need Instrument class
+	// so to keep common properties, we need Instrument classi
 	// to encapsulate what varies, we need InstrumentSpec
 	// But Instrument can be made a concrete class (IMG : img1)
 	// So, img2
