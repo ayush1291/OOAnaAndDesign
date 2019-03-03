@@ -1,0 +1,42 @@
+1. You hahve feature list, use case diagrams, modules etc ready...where to start now?
+2. Individual pieces don't matter, their relationship is imp
+3. Architecture is your design structure, and highlights the most imp parts of your app, and the relationships between those parts
+4. Architecture is the organizational structure of a system, including its decomposition into parts, their connectivity, 
+interaction mechanisms, and the guidung principles and decisions thhat you use in the design system. *************** ???
+5. Architecture helps in changing chaotic mess into well ordered application
+6. Main : start with fucntionality, focus on the most imp ones first.
+
+7. Choose main one (imp1)
+8. Imp things are architecturally significant
+9. 3Qs : for any functionality
+	- is it part of the essence of the system? : i.e. can te system work withiut the feature?
+	- what does it mean
+	- how to do it
+	If you are not clear, spend mre time on it
+10. Choose what's significantand why? (img2)
+11. Choose where to start (img4)
+12. All tasks we choose are significantally imp....coz they add to RISK.
+It doesn't matter where do you start, till you are working to reduce the RISK (img5)
+
+13. In real world, drawing use case isn't practical....also, it may be too formal at times.....
+So, SCENARIO comes into picture......
+	You can consider various scenarios to find out main cases
+	
+14. so. no use cases??? : No : sceanrios is helpful for quick problems, BUT, its only one path of the use case
+One may miss the alternate paths
+Sceanrio is a good way to start
+
+15. Scenarios : helps in finding out the basic requirement and gives a kick start; helps in gathhering requirement
+16. Don't always go into detail......going inot detail at wrong time adds to risk
+17. For making a basic piece (eg Board), one scenario is enough
+
+18. Focus on just one feature at a time
+19. Dont focus on requirements tat don't help in reducing risk
+
+
+20. Three basic steps:
+ask the customer > commonality analysis > implementation plan
+
+
+21. Customers pay for great software, not great code
+	
