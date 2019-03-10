@@ -12,7 +12,7 @@ public class Board {
 	int height;
 	int width;
 	
-	Board(int height, int width, Tile tile){
+	protected Board(int height, int width, Tile tile){
 		this.height = height;
 		this.width = width;
 		tiles = new Tile[width][height];
@@ -24,7 +24,7 @@ public class Board {
 	}
 	
 	void addUnit(int x, int y, Unit unit){
-		Tile tile = tiles[x][y];
+		Tile tile = tiles[x-1][y-1];
 		tile.addUnit(unit);
 	}
 	
@@ -40,8 +40,34 @@ public class Board {
 		return getTile(x,y).getUnit();
 	}
 	
-	Tile getTile(int x, int y){
-		return tiles[x][y];
+	public Tile getTile(int x, int y){
+		return tiles[x-1][y-1];
 	}
+
+	public Tile[][] getTiles() {
+		return tiles;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public int getWidth() {
+		return width;
+	}
+
+	public void setTiles(Tile[][] tiles) {
+		this.tiles = tiles;
+	}
+
+	public void setHeight(int height) {
+		this.height = height;
+	}
+
+	public void setWidth(int width) {
+		this.width = width;
+	}
+	
+	
 
 }

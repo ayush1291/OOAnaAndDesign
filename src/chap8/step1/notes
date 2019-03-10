@@ -1,0 +1,33 @@
+1. Not always "i'll do it my way".......it should be "doing it in smater and fatser way"
+2. Design principle : a tool that can be applied while writing code, so that it is flexible, maintainableor extensible
+
+Principles:
+1. OCP : open close principle : classes should be open to extension, closed to modification
+open >> one can extend your class to do their work
+closed >> they won't touch your code
+Inheritance is an example of OCP
+- type of combo of both encpasulation and abstraction
+
+
+2. DRY : Don't repeat yourself
+It means, ONE requirement at ONE place
+i.e. having each piece of information and behaviour in your system in a single sensible place
+ 
+
+3. SRP : Single responsibility principle
+Every object should have a responsibility, and should be focused on carrying out that, then there will be just one reason to change it
+Other name for cohesion
+Related to DRY
+Thhis will nOT make our classes smaller, but bigger as all related thhings in one (eg.. Board.java does many things, but all board related)
+Spot using "thhe <class> <methhod. itself
+
+4. LSP : Liskov Substitution Principle
+Subtypes must be substitutable for their base types
+
+Alternatives to inheritance
+1. delegation : whhen we want to use other class's behaviour as is...without changing it
+2. composition : if we need diff implementations of a object, it allows to use behaviour from family of classes and change it at runtime
+Behaviours in composition do not exist outside theh composition, When the object is destroyed, all the behaviours are also destroyed
+3. Aggregation : can exist outside main object
+eg. INstruemntSpec (exists outside INstrument, eg when user specifies spces for searching)
+

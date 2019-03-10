@@ -3,3 +3,5 @@
 3. The best way to get requirements is to understand what a system is supposed to do
 4. Analysis elps in understanding, ow will te system behave in real world
 5.Great software => easy to change and extend, does what customer wants
+6. Eaxh class should have only one reason to change
+7. Classes are about behhaviour and functionality

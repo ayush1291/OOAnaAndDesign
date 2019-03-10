@@ -7,14 +7,14 @@ public abstract class Tile {
 
 	List<Unit> units;
 	
-	void addUnit(Unit unit) {
+	public void addUnit(Unit unit) {
 		if (null == units) {
 			units = new ArrayList<>();
 		}
 		units.add(unit);
 	}
 	
-	List<Unit> getUnit() {
+	public List<Unit> getUnit() {
 		return units;
 	}
 
