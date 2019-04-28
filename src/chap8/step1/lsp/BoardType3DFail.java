@@ -5,8 +5,8 @@ import chap7.step1.Tile;
 
 public class BoardType3DFail extends Board{
 
-	BoardType3DFail(int height, int width, Tile tile) {
-		super(height, width, tile);
+	BoardType3DFail(Tile[][] tiles) {
+		super(tiles);
 		// TODO Auto-generated constructor stub
 	}
 
